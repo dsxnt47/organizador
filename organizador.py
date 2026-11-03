@@ -21,10 +21,10 @@ class OrganizadorArquivos(ctk.CTk):
         
         
         self.categorias = {
-            "📁 Documentos": [".pdf", ".docx", ".doc", ".txt", ".xlsx", ".xls", ".pptx", ".csv"],
-            "🖼️ Imagens": [".jpg", ".jpeg", ".png", ".gif", ".svg", ".bmp"],
-            "🎥 Videos e Audios": [".mp4", ".avi", ".mkv", ".mp3", ".wav"],
-            "📦 Compactados e Instaladores": [".zip", ".rar", ".7z", ".exe", ".msi"]
+            "Documentos": [".pdf", ".docx", ".doc", ".txt", ".xlsx", ".xls", ".pptx", ".csv"],
+            "Imagens": [".jpg", ".jpeg", ".png", ".gif", ".svg", ".bmp"],
+            "Videos e Audios": [".mp4", ".avi", ".mkv", ".mp3", ".wav"],
+            "Compactados e Instaladores": [".zip", ".rar", ".7z", ".exe", ".msi"]
         }
 
         self.criar_interface()
