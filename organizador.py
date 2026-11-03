@@ -50,7 +50,7 @@ class OrganizadorArquivos(ctk.CTk):
         
         self.txt_caminho.configure(state="readonly") 
 
-        btn_selecionar = ctk.CTkButton(frame_selecao, text="📂 Escolher Pasta", command=self.selecionar_pasta, font=("Roboto", 12, "bold"))
+        btn_selecionar = ctk.CTkButton(frame_selecao, text="Escolher Pasta", command=self.selecionar_pasta, font=("Roboto", 12, "bold"))
         btn_selecionar.grid(row=0, column=1)
 
         
